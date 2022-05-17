@@ -1,0 +1,9 @@
+.contacto {
+   left: 0;
+   bottom: 0;
+   background-color:$color-principal;
+   color:$color-secundario;
+  @include relative(100%,center);
+   font-size: map-get($tamanio-tipografia, parrafos );
+  }
+  

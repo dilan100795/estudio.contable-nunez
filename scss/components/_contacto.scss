@@ -1,0 +1,8 @@
+
+
+.ubicacion{
+@extend %left;
+    
+  font-size: map-get($map:$tamanio-tipografia , $key:parrafos );  
+  }
+  

@@ -1,0 +1,94 @@
+/* general */
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Noto Sans', sans-serif;
+  
+ 
+}
+/*header*/
+
+ .header {
+ background-color: rgb(23, 10, 73);
+   
+ }
+
+.header a{
+  
+  padding-left:110px; padding-right: 100px;
+}
+
+.header .navbar-nav a:hover {
+padding: 10px; 
+}
+
+
+.logo{
+  text-align: center;
+ transition: width 2s, height 2s, transform 3s; width: 100px;
+ border-radius: 12px; 
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+
+
+.carousel-item{
+  padding: 20px; 
+  }
+
+
+/*footer*/
+
+.contacto {
+
+  position:relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: rgb(23, 10, 73);
+ color: rgb(255, 255, 255);
+text-align: center;
+}
+
+
+/*contacto*/
+
+.ubicacion{
+
+  padding: 20px;font-size: 15px;  
+}
+
+
+
+/*consultas*/
+
+.colorenviar{
+  background-color:rgb(23, 10, 73);
+  color: white;
+}
+
+
+
+.form-control{
+  resize:none;
+   border:solid 1px rgb(23, 10, 73);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

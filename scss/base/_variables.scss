@@ -1,0 +1,25 @@
+
+$color-principal :rgb(23,10,73);
+$color-secundario:rgb(255, 255, 255);
+$font-general: 'Noto Sans', sans-serif;
+
+/*maps*/
+
+$tamanio-tipografia:(
+
+titulo:25px,
+subtitulos:20px,
+parrafos:16px,
+letra-chica:12px,
+);
+
+/*EXTEND*/     
+%left{
+text-align: left;
+padding : 20px; };
+
+@mixin relative($width,$align){
+position: relative;
+width: $width;
+text-align: $align;
+}

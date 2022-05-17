@@ -1,0 +1,12 @@
+.main{
+  .form-control{
+    resize:none;
+     border:solid 1px rgb(23, 10, 73);
+    
+  }
+  .colorenviar{
+    background-color:$color-principal;
+    color: $color-secundario;
+  }
+
+}
