@@ -13,7 +13,7 @@
   left: 0;
   bottom: 0;
   font-weight: lighter;
-  background-color: #170a49;
+  background-color: #172369;
   color: white;
   position: relative;
   width: 100%;
@@ -24,7 +24,7 @@
   padding-bottom: 5px; }
 
 .header {
-  background-color: #170a49; }
+  background-color: #172369; }
   .header a {
     padding-left: 110px;
     padding-right: 100px; }
@@ -46,8 +46,10 @@
 
 .main .form-control {
   resize: none;
-  border: solid 1px #170a49; }
+  border: solid 1px #170a49;
+  text-align: center; }
 
 .main .colorenviar {
-  background-color: #170a49;
-  color: white; }
+  background-color: #172369;
+  color: white;
+  margin-bottom: 50PX; }
