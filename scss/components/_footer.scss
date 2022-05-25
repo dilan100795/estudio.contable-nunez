@@ -1,9 +1,14 @@
 .contacto {
    left: 0;
-   bottom: 0;
+   bottom:0 ;
+  font-weight :lighter;
    background-color:$color-principal;
    color:$color-secundario;
   @include relative(100%,center);
-   font-size: map-get($tamanio-tipografia, parrafos );
-  }
+  font-size: map-get($tamanio-tipografia, parrafos );
+}
   
+.textfooter {
+  
+   padding-bottom: 5px;
+}
